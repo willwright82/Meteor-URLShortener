@@ -24,7 +24,7 @@ class LinkCreate extends Component {
     return (
       <form onSubmit={this.handleSubmit.bind(this)}>
         <div className="form-group">
-          <label><h4 className="h4">Link to Shorten</h4></label>
+          <label><h3 className="h3">Link to Shorten</h3></label>
           <input ref="link" className="form-control" />
         </div>
         <div className="text-danger">{this.state.error}</div>

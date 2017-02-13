@@ -10,8 +10,10 @@ const App = () => {
   return (
     <div>
       <Header />
-      <LinkCreate />
-      <LinkList />
+      <div className="container">
+        <LinkCreate />
+        <LinkList />
+      </div>
     </div>
   );
 };
